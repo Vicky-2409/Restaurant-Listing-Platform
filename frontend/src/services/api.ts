@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Restaurant } from "../types/Restaurant";
 
-const API_URL = "https://107.23.10.31/api/restaurants";
+const API_URL = "http://107.23.10.31/api/restaurants";
 
 export const api = {
   getAllRestaurants: async (): Promise<Restaurant[]> => {
